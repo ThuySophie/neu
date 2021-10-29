@@ -10,7 +10,7 @@ html{
 }
 :root{
     --maincolor:#cd853f;
-    --textcolor:#fdf6f0;
+    --textcolor:#ffffff;
 }
 body{
     background: var(--maincolor);
@@ -38,7 +38,7 @@ body{
     height: 75px;
 }
 #header .logo>a>p{
-    font-family: 'Basic', sans-serif;
+    font-family: 'Arial', sans-serif;
     font-size: 25px;
     margin-top: 10px;
 }
@@ -102,10 +102,6 @@ body{
     color: #634242;
     animation: slide 1.5s;
     position: relative;
-    z-index: 10;
-    display: inline-block;
-    text-align: center;
-    
 }
 @keyframes slide{
     0%{left:5px;}
@@ -147,28 +143,6 @@ body{
     margin: 10px 10px;
 }
 
-#banner .box{
-    width: 195px;
-    height: 190px;
-    background: #899633;
-    border-radius: 50%;
-    position: absolute;
-    display: inline-block;
-    top: 95px;
-    right: 220px;
-}
-#banner .box>p{
-    text-align: center;
-    padding-top: 60px;
-    color: var(--textcolor);
-    font-size: 1.3rem;
-}
-#banner .box>h3{
-    text-align: center;
-    color: var(--textcolor);
-    font-size: 50px;
-    font-family: 'Sacramento', cursive;
-}
 #content{
     border-bottom: 1px solid var(--textcolor);
     height: 380px;
